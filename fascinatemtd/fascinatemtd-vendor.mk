@@ -13,16 +13,16 @@
 # limitations under the License.
 
 # Live wallpaper packages and Themes
-PRODUCT_PACKAGES := \
-    LiveWallpapers \
-    LiveWallpapersPicker \
-    MagicSmokeWallpapers \
-    VisualizationWallpapers \
-    librs_jni
+# PRODUCT_PACKAGES := \
+#    LiveWallpapers \
+#    LiveWallpapersPicker \
+#    MagicSmokeWallpapers \
+#    VisualizationWallpapers \
+#    librs_jni
 
 # Publish that we support the live wallpaper feature.
-PRODUCT_COPY_FILES := \
-    packages/wallpapers/LivePicker/android.software.live_wallpaper.xml:/system/etc/permissions/android.software.live_wallpaper.xml
+# PRODUCT_COPY_FILES := \
+#    packages/wallpapers/LivePicker/android.software.live_wallpaper.xml:/system/etc/permissions/android.software.live_wallpaper.xml
 
 $(call inherit-product, vendor/samsung/fascinatemtd/fascinatemtd-vendor-blobs.mk)
 $(call inherit-product, vendor/samsung/aries-common/aries-vendor-blobs.mk)
