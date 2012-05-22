@@ -35,14 +35,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/aries-common/proprietary/libusc.so:system/vendor/lib/libusc.so \
 
 # tvout
-PRODUCT_COPY_FILES += \
-    vendor/samsung/aries-common/proprietary/libtvout.so:system/lib/libtvout.so \
-    vendor/samsung/aries-common/proprietary/libtvout_jni.so:system/lib/libtvout_jni.so \
-    vendor/samsung/aries-common/proprietary/lib_tvoutengine.so:system/lib/lib_tvoutengine.so \
-    vendor/samsung/aries-common/proprietary/libtvoutfimc.so:system/lib/libtvoutfimc.so \
-    vendor/samsung/aries-common/proprietary/libtvouthdmi.so:system/lib/libtvouthdmi.so \
-    vendor/samsung/aries-common/proprietary/libtvoutservice.so:system/lib/libtvoutservice.so \
-    vendor/samsung/aries-common/proprietary/tvoutserver:system/bin/tvoutserver \
+# PRODUCT_COPY_FILES += \
+#    vendor/samsung/aries-common/proprietary/libtvout.so:system/lib/libtvout.so \
+#    vendor/samsung/aries-common/proprietary/libtvout_jni.so:system/lib/libtvout_jni.so \
+#    vendor/samsung/aries-common/proprietary/lib_tvoutengine.so:system/lib/lib_tvoutengine.so \
+#    vendor/samsung/aries-common/proprietary/libtvoutfimc.so:system/lib/libtvoutfimc.so \
+#    vendor/samsung/aries-common/proprietary/libtvouthdmi.so:system/lib/libtvouthdmi.so \
+#    vendor/samsung/aries-common/proprietary/libtvoutservice.so:system/lib/libtvoutservice.so \
+#    vendor/samsung/aries-common/proprietary/tvoutserver:system/bin/tvoutserver
 
 # low power mode
 PRODUCT_COPY_FILES += \
