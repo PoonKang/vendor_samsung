@@ -32,7 +32,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/aries-common/proprietary/libPVRScopeServices.so:system/vendor/lib/libPVRScopeServices.so \
     vendor/samsung/aries-common/proprietary/libsrv_init.so:system/vendor/lib/libsrv_init.so \
     vendor/samsung/aries-common/proprietary/libsrv_um.so:system/vendor/lib/libsrv_um.so \
-    vendor/samsung/aries-common/proprietary/libusc.so:system/vendor/lib/libusc.so \
+    vendor/samsung/aries-common/proprietary/libusc.so:system/vendor/lib/libusc.so
 
 # tvout
 # PRODUCT_COPY_FILES += \
