@@ -20,19 +20,18 @@ PRODUCT_COPY_FILES := \
 
 # All the blobs necessary for galaxys devices
 PRODUCT_COPY_FILES += \
+    vendor/samsung/fascinatemtd/proprietary/gps.conf:system/etc/gps.conf \
+    vendor/samsung/fascinatemtd/proprietary/gpsd:system/vendor/bin/gpsd \
+    vendor/samsung/fascinatemtd/proprietary/gps.aries.so:system/vendor/lib/hw/gps.aries.so \
     vendor/samsung/fascinatemtd/proprietary/libril.so:system/lib/libril.so \
     vendor/samsung/fascinatemtd/proprietary/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/fascinatemtd/proprietary/libsec-ril40.so:system/lib/libsec-ril40.so \
-    vendor/samsung/fascinatemtd/proprietary/lights.aries.so:system/lib/hw/lights.aries.so \
-    vendor/samsung/fascinatemtd/proprietary/sysinit:system/bin/sysinit \
     vendor/samsung/fascinatemtd/proprietary/rild:system/bin/rild \
     vendor/samsung/fascinatemtd/proprietary/pppd_runner:system/bin/pppd_runner \
-    vendor/samsung/fascinatemtd/proprietary/gpsd:system/vendor/bin/gpsd \
-    vendor/samsung/fascinatemtd/proprietary/gps.conf:system/etc/gps.conf \
-    vendor/samsung/fascinatemtd/proprietary/gps.aries.so:system/lib/hw/gps.aries.so \
-    vendor/samsung/fascinatemtd/proprietary/libsensor_yamaha_test.so:system/vendor/lib/libsensor_yamaha_test.so \
-    vendor/samsung/fascinatemtd/proprietary/geomagneticd:system/vendor/bin/geomagneticd \
-    vendor/samsung/fascinatemtd/proprietary/orientationd:system/vendor/bin/orientationd \
+    vendor/samsung/aries-common/proprietary/libsensor_yamaha_test.so:system/vendor/lib/libsensor_yamaha_test.so \
+    vendor/samsung/aries-common/proprietary/orientationd:system/vendor/bin/orientationd \
+    vendor/samsung/aries-common/proprietary/geomagneticd:system/vendor/bin/geomagneticd \
+    vendor/samsung/fascinatemtd/proprietary/sysinit:system/bin/sysinit \
     vendor/samsung/fascinatemtd/proprietary/ip-up:system/etc/ppp/ip-up \
     vendor/samsung/fascinatemtd/proprietary/ip-down:system/etc/ppp/ip-down \
     vendor/samsung/fascinatemtd/proprietary/hosts:system/etc/hosts
